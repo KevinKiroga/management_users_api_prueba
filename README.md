@@ -85,12 +85,17 @@ Inicia el servidor de Laravel:
 ```
 
 
-# Endpoints o APIS
-| Método | Ruta           | Descripción              | Seguridad |
-|:-------|:---------------|:-------------------------|:----------|
-| POST   | /v1/users/login | Inicia sesión de usuario | NO        |
-| GET    | /v1/users      | Obtiene lista de usuarios| NO        |
-| GET    | /v1/users/{user}| Obtiene usuario por ID   | SI        |
-| POST   | /v1/users      | Crea nuevo usuario       | SI        |
-| PUT    | /v1/users/{user}| Actualiza usuario por ID | SI        |
-| DELETE | /v1/users/{user}| Elimina usuario por ID   | SI        |
+# Endpoints o APIs
+
+En este proyecto, puedes utilizar herramientas como [Hoppscotch](https://hoppscotch.io/) o Postman para probar los endpoints de la API.
+
+| Método | Ruta                | Descripción                | Seguridad |
+|:-------|:--------------------|:---------------------------|:----------|
+| POST   | api/v1/users/login   | Inicia sesión de usuario    | NO        |
+| GET    | api/v1/users         | Obtiene lista de usuarios   | NO        |
+| GET    | api/v1/users/{user}  | Obtiene usuario por ID      | SI        |
+| POST   | api/v1/users         | Crea nuevo usuario          | SI        |
+| PUT    | api/v1/users/{user}  | Actualiza usuario por ID    | SI        |
+| DELETE | api/v1/users/{user}  | Elimina usuario por ID      | SI        |
+
+
